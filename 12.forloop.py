@@ -26,3 +26,5 @@ print("Vowels are : ", vowels_found)
 #three arguments 
 for k in range(1, 11, 2):
     print(k)
+    
+
