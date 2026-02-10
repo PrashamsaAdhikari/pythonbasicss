@@ -7,4 +7,12 @@ except:
 finally:
     print("Always executing sexy hahhahahh")
 
+#raising custom error
+age = int(input("Enter your age: "))
+
+if age < 0:
+    raise ValueError("Age cannot be negative")
+
+print("Your age is:", age)
+
  
