@@ -1,4 +1,5 @@
 # input are Rent, food groceries water and elcetricity
+#dividing between 3 people
 rsum = 0
 while True:
     rent = input("Enter your rent price or 'q' to quit: ")
@@ -51,4 +52,5 @@ def div(a):
     return a/3
 
 final_divided= div(final_total)
+
 print("the money after divided is", final_divided)
